@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Практикум</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <script src="./scripts/index.js"></script>
+</head>
+<body class="page__body">
+	<header class="header page__header">
+		<nav class="header__navigate">
+			<a class="header__avatar" href="../../index.html">
+				<img
+					class="header__avatar-image"
+					src="../../images/logo.svg"
+					width="78"
+					height="78"
+					alt="Логотип сайта."
+				>
+			</a>
+      <ul class="navigation">
+		<li class="navigation__item">
+			<a class="navigation__link" href="../../index.html">
+				<span class="navigation__text">
+					Главная
+				</span>
+			</a>
+		</li>
+        <li class="navigation__item">
+					<a class="navigation__link" href="../categories/index.html">
+						<span class="navigation__text">
+							Темы
+						</span>
+					</a>
+				</li>
+        <li class="navigation__item">
+					<a class="navigation__link" href="./index.html">
+						<span class="navigation__text">
+							Практикум
+						</span>
+					</a>
+				</li>
+        <li class="navigation__item">
+			<a class="navigation__link" href="../contacts/index.html">
+				<span class="navigation__text">
+					Контакты
+				</span>
+			</a>
+		</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page__main">
+    <section class="quiz">
+    	<h2>Тест по теме "Определение жизни. Основные свойства живых организмов"</h2>
+		<fieldset>
+			<legend>Какие изменения происходят в живых организмах при обмене веществ?</legend>
+			<div class="question_answer">
+				<input type="checkbox" id="anwer1_1" name="answer1_1" value="option1" />
+				<label for="anwer1_1">При обмене веществ в живых организмах происходят 
+					химические реакции, в результате которых органические вещества 
+					(например, углеводы, жиры и белки) разлагаются на более простые молекулы, 
+					а затем используются для получения энергии.</label>
+			</div>
+			<div class="question_answer">
+				<input type="checkbox" id="anwer1_2" name="anwer1_2" value="anwer1_2" />
+				<label for="anwer1_2">Обмен веществ включает в себя процессы 
+					синтеза (анаболизм) и разрушения (катаболизм) молекул, которые 
+					необходимы для роста, развития и поддержания жизнедеятельности организма.</label>
+			</div>
+			<div class="question_answer">
+				<input type="checkbox" id="anwer1_3" name="anwer1_3" value="anwer1_3" />
+				<label for="anwer1_3">В результате обмена веществ в живых организмах образуются отходы, 
+					которые выделяются через почки, кишечник и легкие.</label>
+			</div>
+			<div class="question_answer">
+				<input type="checkbox" id="anwer1_4" name="anwer1_4" value="anwer1_4" />
+				<label for="anwer1_4">Обмен веществ связан с потреблением и выделением воды, электролитов и других 
+					веществ через потовые железы, кожу и дыхательную систему.</label>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Как вы понимаете понятие наследственность?</legend>
+			<div class="question_answer">
+				<input type="radio" id="anwer2_1" name="answer2_1" value="option1" />
+				<label for="anwer2_1">Наследственность — это передача генетической 
+					информации от родителей к потомству, что определяет наследственные 
+					свойства и характеристики организма.</label>
+			</div>
+			<div class="question_answer">
+				<input type="radio" id="anwer2_2" name="anwer2_2" value="anwer1_2" />
+				<label for="anwer2_2">Наследственность — это механизм, который позволяет 
+					передавать гены (наследственные материалы) от одного 
+					поколения к другому, обеспечивая сходство и различия между родственниками.</label>
+			</div>
+			<div class="question_answer">
+				<input type="radio" id="anwer2_3" name="anwer2_3" value="anwer1_3" />
+				<label for="anwer2_3">Наследственность — это процесс, в результате которого генетическая 
+					информация, закодированная в ДНК, преобразуется в различные 
+					фенотипические проявления, такие как цвет глаз, форма лица или рост организма.</label>
+			</div>
+		</fieldset>
+	  <button onclick="onSubmitQuiz()">Завершить тест</button>
+    </section>
+  </main>
+</body>
+</html>
